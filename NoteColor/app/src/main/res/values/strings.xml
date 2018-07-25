@@ -1,6 +1,9 @@
 <resources>
   <string name="app_name">NoteColor</string>
 
-  <string name="dummy_button">Dummy Button</string>
-  <string name="dummy_content">DUMMY\nCONTENT</string>
+  <!--Bottom-->
+  <string name="bottom_home">Home</string>
+  <string name="bottom_note">Notes</string>
+  <string name="bottom_task">Tasks</string>
+  <string name="bottom_setting">Setting</string>
 </resources>

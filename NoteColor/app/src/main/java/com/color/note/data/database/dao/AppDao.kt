@@ -9,6 +9,7 @@ import com.color.note.data.database.entity.Category
 import com.color.note.data.database.entity.Contact
 import com.color.note.data.database.entity.Location
 import com.color.note.data.database.entity.Note
+import com.color.note.data.database.entity.Photo
 import com.color.note.data.database.entity.Task
 
 @Dao
@@ -98,6 +99,9 @@ interface AppDao {
   @Query("SELECT * FROM tasks WHERE note_id = :noteId")
   fun getTasksByNoteId(noteId: Int)
 
+  @Query("SELECT * FROM tasks WHERE status = :status")
+  fun getTasksByStatus(status: Int)
+
   @Insert(onConflict = REPLACE)
   fun insertTask(task: Task)
 
@@ -112,4 +116,23 @@ interface AppDao {
 
   @Query("DELETE FROM tasks WHERE note_id = :noteId")
   fun deleteTasksByNoteId(noteId: Int)
+
+  /**
+   * Photo
+   */
+  @Query("SELECT * FROM photos")
+  fun getPhotos(): List<Photo>
+
+  @Query("SELECT * FROM photos WHERE note_id = :noteId")
+  fun getPhotosByNoteId(noteId: Int)
+
+  @Insert(onConflict = REPLACE)
+  fun insertPhoto(photo: Photo)
+
+  @Query("DELETE FROM photos WHERE id = :id")
+  fun deletePhoto(id: Int)
+
+  @Query("DELETE FROM photos WHERE note_id = :noteId")
+  fun deletePhotosByNoteId(noteId: Int)
+
 }
