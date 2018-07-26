@@ -6,4 +6,9 @@
   <string name="bottom_note">Notes</string>
   <string name="bottom_task">Tasks</string>
   <string name="bottom_setting">Setting</string>
+
+  <!--Component-->
+  <string name="search_hint">Search</string>
+  <string name="section_note">Your note today</string>
+  <string name="title_activity_main">MainActivity</string>
 </resources>

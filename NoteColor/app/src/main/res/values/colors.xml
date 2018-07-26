@@ -16,5 +16,6 @@
   <color name="default_style_text">#707070</color>
 
   <color name="white">#ffffff</color>
+  <color name="white_transparent_30">#99ffffff</color>
   <color name="transparent">#00000000</color>
 </resources>

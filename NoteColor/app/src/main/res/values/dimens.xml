@@ -1,3 +1,13 @@
 <resources>
+  <dimen name="margin">16dp</dimen>
+  <dimen name="margin_small">8dp</dimen>
+  <dimen name="padding_large">16dp</dimen>
+  <dimen name="margin_bottom_navigation">56dp</dimen>
+
+  <!--Text size-->
+  <dimen name="section_text">18sp</dimen>
   <dimen name="fab_margin">16dp</dimen>
+
+  <!--Radius-->
+  <dimen name="radius">10dp</dimen>
 </resources>
