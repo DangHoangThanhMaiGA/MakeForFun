@@ -11,4 +11,8 @@
   <string name="search_hint">Search</string>
   <string name="section_note">Your note today</string>
   <string name="title_activity_main">MainActivity</string>
+
+  <!--Add category-->
+  <string name="add_category_title">Create category</string>
+  <string name="add_category_hint">Name</string>
 </resources>

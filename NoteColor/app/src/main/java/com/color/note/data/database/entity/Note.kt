@@ -6,7 +6,7 @@ import android.arch.persistence.room.PrimaryKey
 
 @Entity(tableName = "notes")
 data class Note(
-  @ColumnInfo(name = "name") val firstName: String,
+  @ColumnInfo(name = "name") val name: String,
   @ColumnInfo(name = "cate_id") val cateId: Int,
   @ColumnInfo(name = "created_date") val createdDate: String,
   @ColumnInfo(name = "text") val text: String

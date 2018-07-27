@@ -18,4 +18,63 @@
   <color name="white">#ffffff</color>
   <color name="white_transparent_30">#99ffffff</color>
   <color name="transparent">#00000000</color>
+
+  <!--Color list-->
+  <color name="blue1">#1F88A7</color>
+  <color name="blue2">#25A0C5</color>
+  <color name="blue3">#29AFD6</color>
+  <color name="blue4">#4FBDDD</color>
+  <color name="blue5">#67C7E2</color>
+
+  <color name="green1">#4A9586</color>
+  <color name="green2">#5EAE9E</color>
+  <color name="green3">#74BAAC</color>
+  <color name="green4">#8DC7BB</color>
+  <color name="green5">#A5D3CA</color>
+
+  <color name="red1">#FF4848</color>
+  <color name="red2">#FF5353</color>
+  <color name="red3">#FF7575</color>
+  <color name="red4">#FF8A8A</color>
+  <color name="red5">#FF8E8E</color>
+
+  <color name="yellow1">#C8B400</color>
+  <color name="yellow2">#D9C400</color>
+  <color name="yellow3">#E6CE00</color>
+  <color name="yellow4">#F7DE00</color>
+  <color name="yellow5">#FFE920</color>
+
+  <color name="violet1">#990099</color>
+  <color name="violet2">#B300B3</color>
+  <color name="violet3">#CA00CA</color>
+  <color name="violet4">#FF2DFF</color>
+  <color name="violet5">#FF7DFF</color>
+  <array name="color_list">
+    <item>@color/red1</item>
+    <item>@color/red2</item>
+    <item>@color/red3</item>
+    <item>@color/red4</item>
+    <item>@color/red5</item>
+    <item>@color/violet1</item>
+    <item>@color/violet2</item>
+    <item>@color/violet3</item>
+    <item>@color/violet4</item>
+    <item>@color/violet5</item>
+    <item>@color/blue1</item>
+    <item>@color/blue2</item>
+    <item>@color/blue3</item>
+    <item>@color/blue4</item>
+    <item>@color/blue5</item>
+    <item>@color/green1</item>
+    <item>@color/green2</item>
+    <item>@color/green3</item>
+    <item>@color/green4</item>
+    <item>@color/green5</item>
+    <item>@color/yellow1</item>
+    <item>@color/yellow2</item>
+    <item>@color/yellow3</item>
+    <item>@color/yellow4</item>
+    <item>@color/yellow5</item>
+  </array>
+
 </resources>

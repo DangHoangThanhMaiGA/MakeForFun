@@ -6,8 +6,8 @@ import android.arch.persistence.room.PrimaryKey
 
 @Entity(tableName = "categories")
 data class Category(
-  @ColumnInfo(name = "name") val firstName: String,
-  @ColumnInfo(name = "color") val lastName: String
+  @ColumnInfo(name = "name") val name: String,
+  @ColumnInfo(name = "color") val color: Int
 ) {
   @PrimaryKey(autoGenerate = true)
   var id: Int? = null

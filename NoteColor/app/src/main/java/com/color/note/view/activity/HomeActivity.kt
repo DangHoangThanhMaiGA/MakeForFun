@@ -3,14 +3,16 @@ package com.color.note.view.activity
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import com.color.note.R
+import com.color.note.util.Constant.REQUEST_ADD_CATEGORY
 import com.color.note.view.fragment.HomeFragment
+import com.color.note.view.fragment.HomeFragment.HomeListener
 import com.color.note.view.fragment.NoteFragment
 import com.color.note.view.fragment.SettingFragment
 import com.color.note.view.fragment.TodoTaskFragment
 import it.sephiroth.android.library.bottomnavigation.BottomNavigation
 import kotterknife.bindView
 
-class HomeActivity : BaseActivity() {
+class HomeActivity : BaseActivity(), HomeListener {
   private val bottomNavigation by bindView<BottomNavigation>(R.id.bottom_navigation)
 
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,6 +42,11 @@ class HomeActivity : BaseActivity() {
       replace(R.id.fragment_container, fragment, FRAGMENT_MENU)
       commit()
     }
+  }
+
+  // [HomeListener]
+  override fun onClickAdd() {
+    startActivityForResult(AddCategoryActivity.getIntent(applicationContext), REQUEST_ADD_CATEGORY)
   }
 
   companion object {
