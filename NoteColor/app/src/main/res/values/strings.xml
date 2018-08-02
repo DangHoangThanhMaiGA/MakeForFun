@@ -15,4 +15,11 @@
   <!--Add category-->
   <string name="add_category_title">Create category</string>
   <string name="add_category_hint">Name</string>
+
+  <!--Dialog-->
+  <string name="title_confirm">Confirm</string>
+  <string name="confirm_not_save_category">Are you sure to discard this category?</string>
+  <string name="yes">Yes</string>
+  <string name="no">No</string>
+  <string name="title_activity_add_note">AddNoteActivity</string>
 </resources>

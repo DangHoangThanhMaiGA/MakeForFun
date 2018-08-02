@@ -7,8 +7,12 @@
 
   <!--Text size-->
   <dimen name="section_text">18sp</dimen>
+  <dimen name="title_text">20sp</dimen>
   <dimen name="fab_margin">16dp</dimen>
 
   <!--Radius-->
   <dimen name="radius">10dp</dimen>
+
+  <!--Line-->
+  <dimen name="border">1dp</dimen>
 </resources>

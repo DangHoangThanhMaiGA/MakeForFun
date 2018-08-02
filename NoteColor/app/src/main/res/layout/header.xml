@@ -1,25 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="@dimen/padding_small">
+    android:layout_height="wrap_content"
+    >
   <ImageButton
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:id="@+id/btn_close"
       android:src="@drawable/close_gray"
-      android:background="@null"/>
+      android:background="@null"
+      android:layout_margin="@dimen/margin_small"/>
   <ImageButton
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:id="@+id/btn_check"
       android:src="@drawable/check_gray"
       android:background="@null"
-      android:layout_alignParentRight="true"/>
+      android:layout_alignParentRight="true"
+      android:layout_margin="@dimen/margin_small"/>
   <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:id="@+id/txt_title"
-      android:layout_alignRight="@id/btn_close"
-      />
+      android:text="Text"
+      android:layout_toRightOf="@id/btn_close"
+      android:layout_centerVertical="true"
+      style="@style/TitleText"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_below="@id/btn_close"
+      android:background="@color/line"/>
 </RelativeLayout>

@@ -18,6 +18,7 @@
   <color name="white">#ffffff</color>
   <color name="white_transparent_30">#99ffffff</color>
   <color name="transparent">#00000000</color>
+  <color name="line">#9f9f9f</color>
 
   <!--Color list-->
   <color name="blue1">#1F88A7</color>
@@ -49,33 +50,5 @@
   <color name="violet3">#CA00CA</color>
   <color name="violet4">#FF2DFF</color>
   <color name="violet5">#FF7DFF</color>
-
-  <array name="color_list">
-    <item>@color/red1</item>
-    <item>@color/red2</item>
-    <item>@color/red3</item>
-    <item>@color/red4</item>
-    <item>@color/red5</item>
-    <item>@color/violet1</item>
-    <item>@color/violet2</item>
-    <item>@color/violet3</item>
-    <item>@color/violet4</item>
-    <item>@color/violet5</item>
-    <item>@color/blue1</item>
-    <item>@color/blue2</item>
-    <item>@color/blue3</item>
-    <item>@color/blue4</item>
-    <item>@color/blue5</item>
-    <item>@color/green1</item>
-    <item>@color/green2</item>
-    <item>@color/green3</item>
-    <item>@color/green4</item>
-    <item>@color/green5</item>
-    <item>@color/yellow1</item>
-    <item>@color/yellow2</item>
-    <item>@color/yellow3</item>
-    <item>@color/yellow4</item>
-    <item>@color/yellow5</item>
-  </array>
 
 </resources>
